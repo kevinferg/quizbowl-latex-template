@@ -33,15 +33,15 @@ Begin a .tex file with: `\documentclass{quizbowl}`
 #### Formatting
 
 - Questions:
-  - **Text prior to a power symbol** (*), if it is present, is bolded.
+  - **Text prior to a power symbol (\*)**, if it is present, is bolded.
   - Text inside brackets is specially formatted, i.e. for pronunciation `["pro-NUN-see-AY-shun"]` help.
 - Answers:
-  - Text within `*asterisks*` is bold and underlined: for acceptable (partial) answers.
-  - Text within `~tildes~` is just underlined: for answers to prompt.
+  - Text within \*asterisks\* is bold and underlined: for acceptable (partial) answers.
+  - Text within \~tildes\~ is just underlined: for answers to prompt.
 
 
 #### Title/header info
-- `\tournament{Tournament Name} -- Also appears as left header after page 1
+- `\tournament{Tournament Name}` -- Also appears as left header after page 1
 - `\round{Packet number}` -- Also appears as right header after page 1
 - `\description{Description/author info}`
 
@@ -53,7 +53,7 @@ Begin a .tex file with: `\documentclass{quizbowl}`
 Here is a simple one-question example PDF, with the [text file](main.tex) that generated it. 
 
 <p align="center">
-  <img width="67%" src="qb-template-page.jpg">
+  <img width="67%" style='border:5px solid #222222' src="qb-template-page.jpg">
 </p>
 
 
