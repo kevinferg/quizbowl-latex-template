@@ -53,7 +53,7 @@ Begin a .tex file with: `\documentclass{quizbowl}`
 Here is a simple one-question example PDF, with the [text file](main.tex) that generated it. 
 
 <p align="center">
-  <img width="33%" src="qb-template-page.jpg">
+  <img width="67%" src="qb-template-page.jpg">
 </p>
 
 
