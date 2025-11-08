@@ -239,9 +239,14 @@
   \setlength{\rightskip}{0pt}%
   \intossuptrue%
   \begingroup
-  \catcode`\&=11 % treat & as a letter
-  \catcode`\$=11 % treat $ as a letter
-  \catcode`\%=11 % treat % as a letter
+  \catcode`\&=11
+  \catcode`\$=11
+  \catcode`\%=11
+  \catcode`\#=11
+  \catcode`\<=11
+  \catcode`\>=11
+  \catcode`\_=11
+  \catcode`\~=11
 }{%
   \endgroup
   \intossupfalse%
@@ -297,9 +302,14 @@
   \RaggedRight
   \inbonustrue
   \begingroup
-  \catcode`\&=11 % treat & as a letter
-  \catcode`\$=11 % treat $ as a letter
-  \catcode`\%=11 % treat % as a letter
+  \catcode`\&=11
+  \catcode`\$=11
+  \catcode`\%=11
+  \catcode`\#=11
+  \catcode`\<=11
+  \catcode`\>=11
+  \catcode`\_=11
+  \catcode`\~=11
 }{%
   \endgroup
   \inbonusfalse
