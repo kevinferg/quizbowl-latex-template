@@ -246,7 +246,6 @@
   \catcode`\<=11
   \catcode`\>=11
   \catcode`\_=11
-  \catcode`\~=11
 }{%
   \endgroup
   \intossupfalse%
@@ -309,7 +308,6 @@
   \catcode`\<=11
   \catcode`\>=11
   \catcode`\_=11
-  \catcode`\~=11
 }{%
   \endgroup
   \inbonusfalse
