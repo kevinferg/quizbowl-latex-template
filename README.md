@@ -1,6 +1,14 @@
 # quizbowl.cls
+
 LaTeX template for easily creating neatly formatted quizbowl packets. The idea is to simplify the process of drafting quizbowl questions. See the Usage and Example sections below. Made hastily to test out some things in LaTeX.
 
+[Generate a random packet with this notebook](https://colab.research.google.com/github/kevinferg/quizbowl-latex-template/blob/main/quizbowl-packet-generator.ipynb). (This is made possible via the [qbreader python module](https://github.com/qbreader/python-module))
+
+#### Example:
+
+<p align="center">
+  <img width="67%" style='border:5px solid #222222' src="qb-template-page.jpg">
+</p>
 
 
 ## Usage
@@ -30,7 +38,7 @@ Begin a .tex file with: `\documentclass{quizbowl}`
 ```
 
 
-#### Formatting
+#### Formatting:
 
 - Questions:
   - **Text prior to a power symbol (\*)**, if it is present, is bolded.
@@ -40,23 +48,15 @@ Begin a .tex file with: `\documentclass{quizbowl}`
   - Text within \~tildes\~ is just underlined: for answers to prompt.
 
 
-#### Title/header info
+#### Title/header info:
 - `\tournament{Tournament Name}` -- Also appears as left header after page 1
 - `\round{Packet number}` -- Also appears as right header after page 1
 - `\description{Description/author info}`
 
 
+#### Example:
 
-
-## Example
-
-Here is a simple one-question example PDF, with the [text file](main.tex) that generated it. 
-
-<p align="center">
-  <img width="67%" style='border:5px solid #222222' src="qb-template-page.jpg">
-</p>
-
-
+The code below, from [main.tex](main.tex), was used to generate the simple example seen in this readme.
 
 ```latex
 \documentclass{quizbowl}
